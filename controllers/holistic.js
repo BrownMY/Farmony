@@ -15,6 +15,7 @@ const create = (req, res) => {
     console.log('=====> Post Created')
     db.Post.create({
         title: req.body.title,
+        photo: req.user.photo,
         name: req.user.name,
         content: req.body.content,
         category: req.body.category,

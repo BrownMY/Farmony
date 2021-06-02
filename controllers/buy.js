@@ -16,6 +16,7 @@ const create = (req, res) => {
     db.Post.create({
         title: req.body.title,
         name: req.user.name,
+        photo: req.user.photo,
         content: req.body.content,
         category: req.body.category,
         postType: req.body.postType,

@@ -74,7 +74,8 @@ const login = async (req, res) => {
                 id: foundUser.id,
                 email: foundUser.email,
                 name: foundUser.name,
-                farmer: foundUser.farmer
+                farmer: foundUser.farmer,
+                photo: foundUser.photo
             }
 
             jwt.sign(payload, JWT_SECRET, { expiresIn: 3600 }, (err, token) => {

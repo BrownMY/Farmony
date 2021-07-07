@@ -29,10 +29,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SophiaDipaola/Farmony-backend.git"
+    "url": "git+https://github.com/BrownMY/Farmony.git"
   },
   "bugs": {
-    "url": "https://github.com/SophiaDipaola/Farmony-backend/issues"
+    "url": "https://github.com/BrownMY/Farmony/issues"
   },
-  "homepage": "https://github.com/SophiaDipaola/Farmony-backend#readme"
+  "homepage": "https://github.com/BrownMY/Farmony#readme"
 }
